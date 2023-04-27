@@ -35,7 +35,7 @@ Step by step guid to deploy Nexus Repository Manager on a server
       /opt/nexus-3.28.1-01/bin/nexus start
 10 - Finally to check if the Nexus Repository Manager process is running, what ports it is listening on, and if there are any network connectivity issues.
  
-      exit                                    ---> to become root again
+      exit                                    ---> become root again
       apt install net-tools
       su - nexus
       ps aux | grep nexus                     ---> check nexus process
